@@ -25,4 +25,13 @@ class qa_html_theme extends qa_html_theme_base
 	// use new ranking layout
 	protected $ranking_block_layout = true;
 	protected $theme = 'classic';
+
+	/**
+	 * Adding aditional meta for responsive design
+	 */
+	public function head_metas()
+	{
+		$this->output('<meta name="viewport" content="width=device-width, initial-scale=1"/>');
+		parent::head_metas();
+	}
 }
