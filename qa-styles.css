@@ -1689,6 +1689,12 @@ h2 {
 }
 
 @media (max-width: 560px) {
+    .qa-logo {
+        font-size: 28px;
+    }
+    .qa-search {
+        margin-bottom: 12px;
+    }
     .qa-header {
         padding-left: 12px;
         padding-right: 12px;
